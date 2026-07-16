@@ -2,6 +2,10 @@
 
 A 3D spinning donut terminal animation rendered in Rust.
 
+| Block Shading (`░▒▓█`) | ASCII Shading (`.,-~:;=!*#$@@`) |
+| :---: | :---: |
+| ![Block Shading Preview](assets/block_donut.png) | ![ASCII Shading Preview](assets/ascii_donut.png) |
+
 ## How to Run
 
 To build and run the animation with full optimizations, use:
