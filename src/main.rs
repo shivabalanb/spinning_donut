@@ -8,9 +8,9 @@ fn main() {
     let (Lx, Ly, Lz):(f32,f32,f32) = (0.0, -1.0, -1.0);
     let L_magnitude = (Lx.powi(2) + Ly.powi(2) + Lz.powi(2)).sqrt();
     let (mut A, mut B): (f32, f32) = (0.0, 0.0);
-    let brightness: Vec<char> =  "░▒▓█".chars().collect();
+    //let brightness: Vec<char> =  "░▒▓█".chars().collect();
     //let brightness: Vec<char> =  "▏▎▍▌▋▊▉█".chars().collect();
-    //let brightness: Vec<char> =  ".,-~:;=!*#$@@".chars().collect();
+    let brightness: Vec<char> =  ".,-~:;=!*#$@@".chars().collect();
     let max_brightness_idx = (brightness.len() - 1) as f32;
 
     loop{
@@ -70,9 +70,9 @@ fn main() {
                         frame_buffer[index]= brightness[L_idx];
                    } 
                 }
-                phi += 0.1;
+                phi += 0.01;
             }
-            theta += 0.5;
+            theta += 0.05;
         }
         
         print!("\x1b[H");
