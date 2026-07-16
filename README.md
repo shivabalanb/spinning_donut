@@ -28,3 +28,5 @@ Adjust the rotation step values inside the nested loop (around line 73) to chang
 phi += 0.01;      // Smaller values increase density
 theta += 0.05;    // Smaller values increase density
 ```
+### Reflection
+This was a fun project over the course of 3 days. Learned to pickup rust syntax and delved deep into relevant mathematical concepts, both of which I enjoyed. It didn't click all at once but just kept going at it. Fried my brain at times, but so worth it in the end.
